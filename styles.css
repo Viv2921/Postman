@@ -12,10 +12,11 @@
 
 .header {
     display: flex;
-   position:relative;
-    background-color: white;
+   position:sticky;
     width: 100%;
     justify-content: space-between;
+    top: 0;
+
 }
 
 #header21 {
@@ -200,4 +201,8 @@
 .red {
     margin-left: 85px;
     margin-top: 5px
+}
+
+#spot {
+    margin-left: 200px;
 }
