@@ -6,36 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Postman API Platform</title>
     <link rel="stylesheet" href="./styles.css"  >
-
+    
 </head>
 <body>
     <div class="header">
         <a href=""><img src="./postman-icon.webp" alt="" id="image"></a>
-        <select name="" id="" style="border: 0;">
-            <option value=""><p id="qwe">Product&nbsp; &nbsp;</p></option>
-            <option value="">API Repository</option>
-            <option value="">Tools</option>
-            <option value="">Governance</option>
-            <option value="">Workspaces</option>
-            <option value="">Integrations</option>
-            <option value=""><a href="#">Get Started for free</option></a>
-        </select>
-        <a href="#" id="pricing">&nbsp; &nbsp;Pricing&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <select name="" id="" style="border: 0;">
-            <option value="">Enterprise&nbsp; &nbsp;</option>
-            <option value="">Postman Enterprise</option>
-            <option value="">Customers </option>
-            <option value="">Contact Sales</option>
-        </select>
-        <a href="#" id="pricing">&nbsp; &nbsp;Resources and Support&nbsp; &nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
-        <a href="#" id="pricing">Explore</a>
-            <input type="text" placeholder="Search Postman" id="header1" style="border: 0; background-color:  #f2f2f2; border-radius: 10%; height: 40px;" >
-        
-            <div>
-                
+        <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn" id="pricing">Product <span></span></button>
+            <div id="myDropdown" class="dropdown-content">
+              <a href="#home">What is Postman?</a>
+              <a href="#about">API Repository</a>
+              <a href="#contact">Tools</a>
+              <a href="#home">Governance</a>
+              <a href="#about">Workspaces</a>
+              <a href="#contact">Intergrations</a>
             </div>
-            <button type="button" id="header21" style="width: 70px; border: 1px solid lightgray; height: 30px; margin-top: 4px; ">Sign In</button>&nbsp;
-            <button type="button" id="header2"  style="font-weight: 600; color: rgb(255,255,255); height: 30px; border: none; padding: 7px; margin-top: 4px; width: 150px;">Sign Up for free</button>
+          </div>
+        
+        <a href="#" id="pricing">Pricing</a>
+        <a href="#" id="pricing">Enterprise</a>
+    
+        
+        <a href="#" id="pricing"> Resources and Support</a>
+        <a href="#" id="pricing">Explore</a>
+           
+        
+           
+                <input type="text" placeholder="Search Postman" id="header1" style="border: 0; background-color:  #f2f2f2; border-radius: 10%; height: 40px; margin-top: 4px; text-align: center;" >
+                
+      
+            <button type="button" id="header21" style="width: 60px; border: 1px solid lightgray; height: 30px; margin-top: 4px; padding: ; ">Sign In</button>
+            <button type="button" id="header2"  style="font-weight: 600; color: rgb(255,255,255); height: 30px; border: none; padding: 7px; margin-top: 4px; width: 130px;">Sign Up for free</button>
     </div>
     <div class="backgroundimage">
         <div id="backgroundimage1">
@@ -51,13 +52,13 @@
         </div>
     </div>
     <div class="threepeople">
-        <img src="./3 people logo.svg" alt="" id="size">
+        <img src="./homepage-header-illustration.3385ecf.svg" alt="" id="size">
        <h3 id="question" style="padding-top: 80px; font-size: 24px;" >What is Postman?</h3>
        <p id="question" style="color: rgb(107, 107, 107); margin-top: 10px; font-size: 14px;">Postman is an API platform for building and using APIs. Postman simplifies each step of <br>the API lifecycle and streamlines collaboration so you can create better APIs—faster.</p>
         <div id="container">
             <div id="square"><img src="./tool.svg"><br><a href="#" style="text-decoration: none;" id="tt">API Tools </a>
                 <br><br><p id="pool"> A comprehensive set of tools that help accelerate the API Lifecycle - from design, testing, documentation, and mocking to discovery.</p></div>
-            <div id="square" ><img src="./api.svg"> <br> <a href="#" style="text-decoration: none;" id="tt">API Repository</a>
+            <div id="square" ><img src="./repo.svg"> <br> <a href="#" style="text-decoration: none;" id="tt">API Repository</a>
                <br><br> <p id="pool">Easily store, iterate and collaborate around all your API artifacts on one central platform used across teams.</p></div>
             <div id="square" ><img src="./workspaces.svg"><br><a href="#" id="tt">Workspaces</a>
                 <br><br><p id="pool">Organize your API work and collaborate with teammates across your organization or stakeholders across the world.</p></div>
@@ -77,8 +78,8 @@
                     <div id="item1"><img src="./snow.png" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni sed fugiat dignissimos. Reiciendis, omnis nemo quam officiis iste soluta nostrum quo illum sunt?</p></div>
                     <div id="item1"><img src="./zoho.png" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis aliquid eum repellendus molestiae, ipsum ea harum quidem neque quo natus.</p></div>
                     <div id="item1"><img src="./intel.png" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam ad dolorem incidunt iste voluptatem, pariatur molestiae quam quisquam iusto mollitia.</p></div>
-                    <div id="item1"><img src="./api ev.png" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur vel a cumque incidunt. Unde ipsa dolorum a adipisci earum!</p></div>
-                    <div id="item1"><img src="./adyen.jfif" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem possimus iure cumque quod quam ducimus deserunt maiores minima ea qui?</p></div>
+                    <div id="item1"><img src="./notion.png" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit consequuntur vel a cumque incidunt. Unde ipsa dolorum a adipisci earum!</p></div>
+                    <div id="item1"><img src="./dolby.jfif" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem possimus iure cumque quod quam ducimus deserunt maiores minima ea qui?</p></div>
                     <div id="item1"><img src="./dolby.jfif" alt="" style="width: 50px;"><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minus cum accusamus odio, dolorum quidem vitae repellendus mollitia iure adipisci et.</p></div>
                     <div id="item1"><img src="./with.png" alt="" style="width: 50px;"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non dolor odio dolorem minima quibusdam hic amet at labore sint reiciendis?</p></div>
                     
@@ -128,11 +129,11 @@
             <div id="square2"><img src="./twitterlogo.png" alt="" id="logoss"><p id="pos">Twitter ads Api</p></div>
             <div id="square2"><img src="./courier.png" alt="" id="logoss">&nbsp;&nbsp;Courier</div>
             <div id="square2"><img src="./maps.png" alt="" id="logoss">Google maps</div>
-            <div id="square2"><img src="./cohesity.jfif" alt="" id="logoss">Cohesity</div>
+            <div id="square2"><img src="./sdsd.jfif" alt="" id="logoss">&nbsp;&nbspCohesity</div>
 
            </div>
            <div class="four-people">
-            <img src="./4 people.svg" alt="" id="four">
+            <img src="./homepage-footer-illustration.d3da127.svg" alt="" id="four">
                 <div id="header5">
                     <h3 id="font" style="font-weight: 600; font-size: 18px; ">Get Started with Postman</h3><br>
                     <input type="text" placeholder="jsmith@example.com" style="width: 230px; height: 34px; border:1px solid rgb(255,108,55); border-radius: 4px; padding: 5px;"  >
@@ -193,7 +194,8 @@
                 
               
             </div>
-           
+            <script src="./script.js"></script>      
            
 </body>
+
 </html>
