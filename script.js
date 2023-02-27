@@ -2,8 +2,6 @@
     document.getElementById("myDropdown").classList.toggle("show");
     document.getElementById("inv").classList.toggle("invert");
   }
-  
-  // Close the dropdown if the user clicks outside of it
   window.onclick = function(event) {
     if (!event.target.matches('.dropbtn')) {
         console.log('click')

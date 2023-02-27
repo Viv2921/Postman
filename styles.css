@@ -210,10 +210,10 @@ body{
 
 #item1 {
     border: 0.8px solid lightgray;
-    width: 330px;
-    height: 230px;
+    width: 340px;
+    height: 200px;
     margin-left: 200px;
-    padding: 20px
+    padding: 15px;
     
 
 }
@@ -266,10 +266,11 @@ body{
 
 #square1 {
     width: 500px;
-    height: 170px;
+    height: 110px;
     border: 1px solid lightgray;
     border-right: 0;
     border-left: 0;
+    border-bottom: 0;
     padding: 15px;
     
 }
@@ -317,8 +318,8 @@ body{
 
 #pos {
     display: inline;
-    margin-left: 10px;
-    margin-top: -20px;
+    margin-left: 50px;
+    margin-top: 
 }
 #ee {
     text-decoration: none;
@@ -522,4 +523,169 @@ border-radius: 5px;}
     -webkit-transform: scaleY(-1);
     transform: scaleY(-1);
 }
+.icon {
+    padding-left: 0;
+    background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat left;
+   
+  }
+  .main {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/* Bootstrap 4 text input with search icon */
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+#notion {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 20px;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+}
+#collection{
+    margin-top: 8px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: rgb(107, 107, 107);
+    word-break: normal;
+}
+
+#para {
+    margin-top: 9px;
+    color: rgb(107, 107, 107);
+    font-size: 12px;
+    overflow-wrap: break-word;
+    word-break: break-word;
+    line-height: 1.6;
+}
+#www {
+    margin-left: 54px;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 400;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: rgb(33, 33, 33);
+    word-break: normal;
+    margin-top: 10px;
+}
+#qqq{
+    border: 1px solid black;
+    width: 40px;
+    height: 20px;
+}
+#kkk{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: rgb(33, 33, 33);
+    word-break: normal;
+    margin-top: 41px;
+}
+
   
+form {
+    color: #555;
+    display: flex;
+    padding: 2px;
+    background-color: rgb(242, 242, 242);
+    width: 275px;
+    align-items: center;
+    margin: 0 0 30px;
+    border-radius: 5px;
+    margin-left: 200px;
+  }
+  form.nosubmit {
+   border: none;
+   padding: 0;
+  }
+  
+  input.nosubmit {
+    border: 0px solid lightgray;
+    width: 100%;
+    padding: 9px 6px 9px 50px;
+     background: transparent url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' class='bi bi-search' viewBox='0 0 16 16'%3E%3Cpath d='M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z'%3E%3C/path%3E%3C/svg%3E") no-repeat 13px center;
+  }
+  #tyu{
+    margin: 0px;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    word-break: normal;
+    font-size: 14px;
+    line-height: 1.44;
+    color: rgb(33, 33, 33);
+    letter-spacing: -0.12px;
+    margin-left: 50px;
+  }
+
+  #openq{
+    margin-top: -50px;
+    width: 39px;
+  }
+
+  #qwer{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: rgb(107, 107, 107);
+    word-break: normal;
+    margin-left: 50px;
+    margin-top: -12px;
+  }
+
+  #cd{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: rgb(107, 107, 107);
+    word-break: normal;
+  }
+
+  #dlogo{
+    width: 200px;
+    height: 200px;
+
+    
+    margin-left: 0;
+    margin-top: -40px;
+    
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    font-weight: 600;
+    word-break: normal;
+    font-size: 14px;
+  
+    color: rgb(33, 33, 33);
+  
+
+
+   
+  }
+
+  #text2{
+    margin-left: 50px;
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: 400;
+    font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
+    color: rgb(107, 107, 107);
+    word-break: normal;
+  }
+   
