@@ -19,10 +19,7 @@ body{
     width: 100%;
     z-index: 30;
     justify-content: space-between;
-    column-gap: 12px;
-    
-  
-   
+    column-gap: 12px; 
     top: 0;
     background-color: white
 
@@ -80,8 +77,7 @@ body{
     background-position: right;
     position: relative;
     background-color: white;
-    z-index: 5;
-  
+    z-index: 5; 
 }
 #backgroundimage1 {
     width: 400px;
@@ -89,9 +85,7 @@ body{
     position: absolute;
     bottom: 0;
     margin-left: 200px;
-    margin-bottom: 90px;
-    
-    
+    margin-bottom: 90px;   
 }
 
 #font {
@@ -106,8 +100,7 @@ body{
     color: rgb(33,33,33);
 }
 
-.threepeople {
-   
+.threepeople {   
     width: 100%;
     height: 570px;
     background-color: rgb(249, 249, 249);
@@ -133,12 +126,9 @@ body{
 #container {
     display: flex;
     width: 80%;
-    padding: 20px;
-    
+    padding: 20px;  
     margin-left: 170px;
     column-gap: 1px;
-    
-
     
 }
 
@@ -200,11 +190,11 @@ body{
     grid-template-columns: repeat(3,200px);
    
     
-    height: 850px;
+    height: 750px;
     width: 100px;
     padding: 35px;
     grid-column-gap: 200px;
-    grid-row-gap: 20px;
+    grid-row-gap: 10px;
     
 }
 
@@ -224,7 +214,7 @@ body{
 }
 
 .future {
-    margin-top: 90px;
+    margin-top: 0px;
     width: 100%;
     height: 270px;
     background-color: rgb(249, 249, 249);
@@ -272,6 +262,7 @@ body{
     border-left: 0;
     border-bottom: 0;
     padding: 15px;
+    margin-left: -5px;
     
 }
 
@@ -301,9 +292,11 @@ body{
 }
 
 #square2 {
-    width: 300px;
+    width: 370px;
     height: 30px;
     padding: 3px;
+    margin-left: -42px;
+    margin-top: -25px;
 }
 
 #logoss {
@@ -319,7 +312,7 @@ body{
 #pos {
     display: inline;
     margin-left: 50px;
-    margin-top: 
+    
 }
 #ee {
     text-decoration: none;
@@ -457,7 +450,6 @@ body{
 #rrrr{
     height: 200px;
     width: 200px;
-
     margin-top: -413px;
     margin-left: 250px;
 }
@@ -465,21 +457,15 @@ body{
 .dropbtn {
     background-color: white;
     display: flex;
-
     justify-content: center;
     font-size: 14px;
     font-family: "Inter",system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen,Ubuntu,Cantarell,Fira Sans,Droid Sans,Helvetica,Arial,sans-serif;
 
-    color: rgb(107, 107, 107);
-  
-    
+    color: rgb(107, 107, 107);  
     border: none;
     cursor: pointer;
     margin-top: -60px;
   }
-  
-  
-  
   .dropdown {
     position: relative;
     display: inline-block;
@@ -533,7 +519,7 @@ border-radius: 5px;}
     margin: 50px auto;
 }
 
-/* Bootstrap 4 text input with search icon */
+
 
 .has-search .form-control {
     padding-left: 2.375rem;
@@ -582,7 +568,7 @@ border-radius: 5px;}
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
     color: rgb(33, 33, 33);
     word-break: normal;
-    margin-top: 10px;
+    margin-top: -8px;
 }
 #qqq{
     border: 1px solid black;
@@ -597,9 +583,7 @@ border-radius: 5px;}
     color: rgb(33, 33, 33);
     word-break: normal;
     margin-top: 41px;
-}
-
-  
+}  
 form {
     color: #555;
     display: flex;
@@ -615,7 +599,6 @@ form {
    border: none;
    padding: 0;
   }
-  
   input.nosubmit {
     border: 0px solid lightgray;
     width: 100%;
@@ -633,13 +616,11 @@ form {
     letter-spacing: -0.12px;
     margin-left: 50px;
   }
-
   #openq{
     margin-top: -50px;
     width: 39px;
   }
-
-  #qwer{
+ #qwer{
     font-size: 12px;
     line-height: 20px;
     font-weight: 400;
@@ -649,7 +630,6 @@ form {
     margin-left: 50px;
     margin-top: -12px;
   }
-
   #cd{
     font-size: 12px;
     line-height: 20px;
@@ -658,27 +638,17 @@ form {
     color: rgb(107, 107, 107);
     word-break: normal;
   }
-
   #dlogo{
     width: 200px;
-    height: 200px;
-
-    
+    height: 200px;  
     margin-left: 0;
-    margin-top: -40px;
-    
+    margin-top: -40px;   
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
     font-weight: 600;
     word-break: normal;
-    font-size: 14px;
-  
-    color: rgb(33, 33, 33);
-  
-
-
-   
+    font-size: 14px; 
+    color: rgb(33, 33, 33);  
   }
-
   #text2{
     margin-left: 50px;
     font-size: 12px;
@@ -687,5 +657,36 @@ form {
     font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", Helvetica, Arial, sans-serif;
     color: rgb(107, 107, 107);
     word-break: normal;
+  }
+  #tyy{
+    text-decoration: none;
+    width: max-content;
+    display: inline-flex;
+    -webkit-box-align: center;
+    align-items: center;
+    cursor: pointer;
+    box-sizing: border-box;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: rgb(33, 33, 33);
+    background-color: transparent;
+    border: 1px solid rgba(0, 0, 0, 0.16);
+    height: 32px;
+    padding: 8px 12px;
+    border-radius: 4px;
+    margin-left: 240px;
+    margin-top: 10px;
+  }
+  #workspace{
+    text-transform: uppercase;
+    color: rgb(0, 127, 49);
+    font-size: 10px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+    margin-left: 264px;
+    border: 1px solid rgb(164, 238, 196);
+    width: 65px;
+    text-align: center;
+    
   }
    
